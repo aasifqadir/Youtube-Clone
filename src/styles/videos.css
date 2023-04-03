@@ -1,0 +1,40 @@
+.videos {
+    position: relative;
+    top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto","Arial",sans-serif;
+    /* margin: 0px 16px; */
+}
+
+.videos_list img {
+    border-radius: 10px;
+    width: 350px;
+    height: 202px;
+    margin-right: 16px;
+   
+}
+
+.discription {
+    width: 350px;
+    height: 100px;
+}
+
+.discription h4 {
+    margin: 0 0 7px 0;
+    color: #0f0f0f;
+}
+.discription p{
+    margin: 0;
+    color: #606060;
+    font-size: 16px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn input{
+    border: none;
+    cursor: pointer;
+}
